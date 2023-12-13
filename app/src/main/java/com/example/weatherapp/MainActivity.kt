@@ -13,12 +13,10 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-//c8c4fe36e1a335cb351e92b2a6aaf645 API Key
-
 //https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 class MainActivity : AppCompatActivity() {
-
+ 
     private  val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
